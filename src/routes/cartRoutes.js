@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const CartManager = require('./CartManager');
+const CartManager = require('../CartManager');
 
 // Crear una instancia de CartManager
 const cartManager = new CartManager('./data/carts.json');
